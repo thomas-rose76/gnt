@@ -1,0 +1,37 @@
+.footer {
+  text-align: center;
+  padding:30px;
+  background-color: #2C2B2B;
+  text-decoration: none;
+  display: flex;
+}
+
+.footer a {
+  padding-left: 0px;
+  font-size: 30px;
+  margin: 0px auto;
+  padding: 0px 20px;
+  color: #2CA1EF;
+  text-decoration: none;
+}
+
+.footer h2 {
+  font-size: 15px;
+  color: white;
+}
+
+.footer img  {
+  width: 30px;
+  height:30px;
+}
+
+.footer a:hover {
+  color:#98c5e2;
+  text-decoration: none;
+}
+
+.footer p {
+  font-size: 15px;
+  font-family: Open Sans;
+  color:#6B6C6C;
+}
