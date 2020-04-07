@@ -2,8 +2,7 @@
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   flex-grow: 1;
-  grid-gap: 24px;
-  padding: 16px 24px;
+  grid-gap: 16px;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -14,6 +13,7 @@
   border-radius: 5px;
   text-align: center;
   width: 402px;
+  margin-bottom: 16px;
 }
 
 .past h4, p {
@@ -32,4 +32,28 @@
   height:200px;
   width:400px;
   border-radius: 5px 5px 0px 0px;
+}
+
+.cards-youtube1 {
+  height: 200px;
+  width: 240px;
+  background-color: #2C2B2B;
+  font-size: 7px;
+  margin-top: 36px;
+  margin-left: 36px;
+  text-align: center;
+  padding: 28px;
+  vertical-align: middle;
+}
+
+.cards-youtube2 {
+  height: 200px;
+  width: 240px;
+  background-color: #2C2B2B;
+  font-size: 7px;
+  margin-top: 36px;
+  margin-right: 36px;
+  text-align: center;
+  padding: 28px;
+  vertical-align: middle;
 }
