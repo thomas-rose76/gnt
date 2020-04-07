@@ -1,0 +1,35 @@
+.past .cards {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-grow: 1;
+  grid-gap: 24px;
+  padding: 16px 24px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.past .card {
+  display: flex;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  text-align: center;
+  width: 402px;
+}
+
+.past h4, p {
+  margin: 8px;
+}
+
+.past h4 {
+  font-size: 21px;
+}
+
+.past p {
+  font-size: 15px;
+}
+
+.past .card img {
+  height:200px;
+  width:400px;
+  border-radius: 5px 5px 0px 0px;
+}
