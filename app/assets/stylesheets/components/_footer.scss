@@ -31,3 +31,7 @@
   color:#2CA1EF;
   text-decoration: none;
 }
+
+.fix-footer {
+min-height: calc(100vh - 80px - 100px);
+}
