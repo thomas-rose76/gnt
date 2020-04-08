@@ -1,4 +1,4 @@
-.past .cards {
+.cards {
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   flex-grow: 1;
@@ -7,17 +7,27 @@
   align-items: center;
 }
 
-.past .card {
+.card {
   display: flex;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   border-radius: 5px;
   text-align: center;
   width: 402px;
   margin-bottom: 16px;
+  transition: transform .2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
 }
 
 .past h4, p {
   margin: 8px;
+}
+
+.past a {
+  text-decoration: none;
+  color: black;
 }
 
 .past h4 {
@@ -28,7 +38,7 @@
   font-size: 15px;
 }
 
-.past .card img {
+.card img {
   height:200px;
   width:400px;
   border-radius: 5px 5px 0px 0px;
