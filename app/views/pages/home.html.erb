@@ -14,43 +14,51 @@
   <h2>Nos derniers events</h2>
     <div class="cards">
       <div class="card">
-        <div>
-          <img src="<%= image_path "GNBATEAU.jpg" %>" alt="Affiche GN Petit Bain">
-        </div>
-        <div class="text">
-          <h4>Samedi 11 janvier 2020</h4>
-          <p>@Le Petit Bain - Paris   /   <a href="https://www.facebook.com/events/2352007678443482/">event facebook</a></p>
-        </div>
+        <a href="https://www.facebook.com/events/2352007678443482/" target="_blank">
+          <div>
+            <img src="<%= image_path "GNBATEAU.jpg" %>" alt="Affiche GN Petit Bain">
+          </div>
+          <div class="text">
+            <h4>Samedi 11 janvier 2020</h4>
+            <p>@Le Petit Bain - Paris<p>
+          </div>
+        </a>
       </div>
 
       <div class="card">
-        <div>
-          <img src="<%= image_path "GNCROISIERE.jpg" %>" alt="Affiche GN Les Iodés">
-        </div>
-        <div class="text">
-          <h4>Samedi 20 juillet 2019</h4>
-          <p>@Canal de L'ourcq - Paris   /   <a href="https://www.facebook.com/events/611988479295431/">event facebook</a></p>
-        </div>
+        <a href="https://www.facebook.com/events/611988479295431/" target="_blank">
+          <div>
+            <img src="<%= image_path "GNCROISIERE.jpg" %>" alt="Affiche GN Les Iodés">
+          </div>
+          <div class="text">
+            <h4>Samedi 20 juillet 2019</h4>
+            <p>@Canal de L'ourcq - Paris</p>
+          </div>
+         </a>
       </div>
 
       <div class="card">
-        <div>
-          <img src="<%= image_path "GNZIC.jpg" %>" alt="Affiche GN Fête de la zic">
-        </div>
-        <div class="text">
-          <h4>Vendredi 21 juin 2019</h4>
-          <p>@Le Métro - Paris   /   <a href="https://www.facebook.com/events/611988479295431/">event facebook</a></p>
-        </div>
+        <a href="https://www.facebook.com/events/2267422026839366/" target="_blank">
+          <div>
+            <img src="<%= image_path "GNZIC.jpg" %>" alt="Affiche GN Fête de la zic">
+          </div>
+          <div class="text">
+            <h4>Vendredi 21 juin 2019</h4>
+            <p>@Le Métro - Paris</p>
+          </div>
+        </a>
       </div>
 
       <div class="card">
-        <div>
-          <img src="<%= image_path "party1.jpg" %>" alt="Affiche GN Concorde Atlantique">
-        </div>
-        <div class="text">
-          <h4>Vendredi 12 avril 2019</h4>
-          <p>@Concorde Atlantique - Paris   /   <a href="https://www.facebook.com/events/611988479295431/">event facebook</a></p>
-        </div>
+        <a href="https://www.facebook.com/events/2211610015769493/" target="_blank">
+          <div>
+            <img src="<%= image_path "party1.jpg" %>" alt="Affiche GN Concorde Atlantique">
+          </div>
+          <div class="text">
+            <h4>Vendredi 12 avril 2019</h4>
+            <p>@Concorde Atlantique - Paris</p>
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -75,6 +83,28 @@
         <iframe class="gnbateau" width="800" height="450" src="https://www.youtube.com/embed/B8jA7hqTB9s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
+  </div>
+</div>
+
+<div class="contact">
+  <div class="container">
+    <h2>Prise de contact</h2>
+    <div class="container-form">
+     <form action="action_page.php">
+
+      <label for="name"></label>
+      <input type="text" id="fname" name="name" placeholder="Nom..">
+
+      <label for="email"></label>
+      <input type="text" id="lname" name="email" placeholder="E-mail..">
+
+      <label for="subject"></label>
+      <textarea id="subject" name="subject" placeholder="Message.." style="height:150px"></textarea>
+
+      <input type="submit" value="Envoyer">
+
+    </form>
+</div>
   </div>
 </div>
 
