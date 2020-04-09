@@ -17,6 +17,32 @@
   </head>
 
   <body>
+    <div class="navbar navbar-expand-sm navbar-light navbar-gn">
+      <a class="navbar-brand" href="#">
+      <img src="<%= image_path "Logo.gif" %>" alt="logo GN">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">Nos prochains events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">Nos derniers events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">Mise en bouche</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section4">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <div class="fix-footer">
       <%= yield %>
     </div>
